@@ -1,6 +1,4 @@
 
-console.log(document.querySelector('.game-result').innerHTML);
-
 function results(userInput){
     let score= JSON.parse(localStorage.getItem('score'));
     if(!score){
@@ -72,6 +70,6 @@ function results(userInput){
 }
 function reset(){
     localStorage.removeItem('score');
-    alert(`Stats have been reset`);
+    alert(`Your stats have been reset!`);
     document.querySelector('.game-result').innerHTML="Your Results Here!!!";
 }
