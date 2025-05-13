@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <title>To-Do Example</title>  
+</head>
+<body>
+    <div class="container">
+        <h2>To-Do List</h2>
+        
+        <input type="text" placeholder="To-Do Title" id="textArea">
+        <input type="date" id="dateArea">
+        <button id="add" onclick="addTodo()">Add</button>
+
+        <div class="todo-section">
+            <div>
+                <h3>To Do-Titles</h3><br>
+                <p id="title"></p>
+            </div>
+            <div>
+                <h3>Added Date</h3><br>
+                <p id="date"></p>
+            </div>
+            <div>
+                <h3>Actions</h3><br>
+                <p id="action-button"></p>
+            </div>                
+                <!-- <button id="delete" onclick="deleteTodo()">Delete</button> -->
+            </div>                   
+        </div>
+    </div>
+</body>
+</html>

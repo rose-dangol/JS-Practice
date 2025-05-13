@@ -1,0 +1,44 @@
+.container{
+    width: 500px;
+    height: 750px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background-image: url('./background.jpeg');
+    font-size: 18px;
+}
+h2{
+    color: rgb(100, 1, 1);
+}
+input{
+    width: 150px;
+    height: 30px;
+}
+#add{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(56, 161, 56);
+    border: 0px;
+    color: white;
+}
+#delete{
+    height: 30px;
+    width: 50px;
+    background-color: red;
+    border: 0px;
+    color: white;
+}
+.todo-section{
+    margin-top: 10px;
+    margin-left: 65px;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly; /* horizontal centering */
+    align-items: center;     /* vertical centering*/
+}
+h3{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
