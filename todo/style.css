@@ -5,7 +5,10 @@
     text-align: center;
     padding: 30px;
     background-image: url('./background.jpeg');
+    background-size: cover;
     font-size: 18px;
+        border: 1px solid black;
+
 }
 h2{
     color: rgb(100, 1, 1);
@@ -28,17 +31,21 @@ input{
     border: 0px;
     color: white;
 }
-.todo-section{
-    margin-top: 10px;
-    margin-left: 65px;
-    width: 75%;
+
+.task-header{
     display: flex;
     justify-content: space-evenly; /* horizontal centering */
     align-items: center;     /* vertical centering*/
+    border: 1px solid black;
+}
+.task-section{
+    display: flex;
+    justify-content: space-around;
+    /* */
+    align-items: center;
+    margin-top: 10px; 
+    border: 1px solid black;
 }
 h3{
-    margin: 0px;
-}
-p{
     margin: 0px;
 }
