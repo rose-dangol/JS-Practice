@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripts.js"></script>
     <title>To-Do Example</title>  
 </head>
 <body>
     <div class="container">
         <h2>To-Do List</h2>
         
-        <input type="text" placeholder="To-Do Title" id="textArea">
-        <input type="date" id="dateArea">
-        <button id="add" onclick="addTodo()">Add</button>
+        <input type="text" placeholder="Task Name" id="taskArea">
+        <input type="date" id="dateArea" value="dueDate">
+        <button id="add" onclick="addTask()">Add</button>
 
         <div class="todo-section">
             <div>
