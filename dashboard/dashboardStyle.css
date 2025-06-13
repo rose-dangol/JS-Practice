@@ -1,0 +1,110 @@
+/* .dashboard{
+    border: 5px solid #9DBAED;
+    border-radius: 20px;
+    height: 350px;
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+    margin:10px ;
+}
+.horizontal-line{
+    width: auto;
+    height: 2px;
+    background-color: black;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.LogoutButton{
+    font-family: sans-serif;
+    border-radius: 15px;
+    padding: 8px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+.Profile-section{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+} */
+
+.dashboard-container{
+    padding: 20px;
+    width: 20%;
+    height: calc(100vh - 60px);
+    border: 2px solid #9DBAED;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dashboard-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.dashboard-logo-title{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard-logo{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background-color: #9DBAED;
+}
+.dashboard-line{
+    height:2px;
+    width:100%;
+    margin: 20px;
+    margin-left: 0px;
+    border-radius: 8px;
+    background-color: black;
+}
+.dashboard-center{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    height: 280px;
+    justify-content: center;
+}
+.dashboard-menu{
+    display: flex;
+    gap: 1rem;
+}
+.dashboard-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.dashboard-profile{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background-color: #9DBAED;
+}
+.dashboard-logout{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FF0033;
+    border: 0px;
+    width: 5rem;
+    height: 2rem;
+    color: white;
+
+}

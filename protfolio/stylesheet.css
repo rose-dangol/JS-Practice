@@ -1,0 +1,41 @@
+/*  */
+.main-container{
+    background-color: aqua;
+    height: 800px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: bisque;
+    height: 10%;
+    
+}
+.nameArea{
+    width: 60%;
+    background-color: blue;
+    text-align: center;
+    height: 80%;
+}
+.links-section{
+    width: 40%; 
+    background-color: blueviolet;
+    height: 80%;
+} 
+.linkshere{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;    
+}
+li{
+
+}

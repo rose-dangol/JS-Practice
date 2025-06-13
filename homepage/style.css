@@ -1,0 +1,99 @@
+/* .container{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding:3%;
+    background-color: blue;
+}
+h2{
+    text-align:left;
+    margin-left: 75px;
+}
+input{
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    height: 30px;
+}
+button{
+    text-align: center;
+    background-color: rgb(62, 161, 62);
+    height: auto;
+    width: auto;
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: underline;
+    color: white;
+} */
+
+.LoginContainer{
+     width: 400px;
+     height: 600px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     /* justify-content: center; */
+     margin: 0px;
+     padding: 0px;
+     border-radius: 15px;
+     background-color: rgb(255, 255, 255);
+     border: 1px solid black;
+     
+}
+
+.LoginImage{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(57, 22, 183);
+    border-radius: 15px;
+}
+
+.LoginCredentials{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 4px;
+    margin-left: 40px;
+    justify-content: flex-start;
+}
+
+.LoginHeading{
+    font-size: 14px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+
+.LoginText{
+    padding: 4px;
+    border-radius: 5px;
+    width: 70%;
+    height: 2.5rem;
+}
+
+.LoginButton{
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 15px;
+    padding: 8px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.LoginRegister{
+    font-family: sans-serif;
+    text-decoration: underline;
+    background-color: white;
+    border: 0px;
+}
